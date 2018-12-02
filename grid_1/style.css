@@ -3,8 +3,11 @@
 	grid-gap: 20px;	
 	/*grid-template-columns: 1fr 1fr 1fr;*/
 	/*grid-template-columns: repeat(3, 1fr);*/ /* remember if not defined will repeat every other column ect */
-	grid-template-columns: auto 1fr 1fr 1fr 1fr; /* auto is the max size of content! important! This can make things bigger than bigger/smaller than expected! */
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* This makes page more responsive. minmax first property is the smallest, second is the largest! */
+	/*grid-template-columns: auto 1fr 1fr 1fr;*/ /* auto is the max size of content! important! This can make things bigger than bigger/smaller than expected! */
 	grid-template-rows: 1fr;
+	/*justify-items: start;*/
+	/*align-items: end;*/
 }
 
 
