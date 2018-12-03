@@ -17,6 +17,8 @@
 	/*grid-column: 1/-1;*/ /* This will stop extra elements from popping up when screen is rezised */
 	/* grid-column: span 3; */ /* This will span across three grids */
 	/* grid-row: 1/3; */
+	/* justify-self: start; */
+	/* align-self: end; */
 }
 
 
