@@ -1,3 +1,10 @@
+/* Normalizing CSS but normalizing.css is better */
+body {
+  margin: auto 0;	
+}
+
+
+
 .zone {
     /*padding:30px 50px;*/
     /*margin:40px 60px;*/
@@ -26,6 +33,20 @@
 	margin: 0;
 }
 
+
+
+@media only screen and (max-width: 700px) {
+	.main-nav {
+		font-size: 0.5em;
+		padding: 0;
+	}
+}
+
+
+
+.push {
+	margin-left: auto;
+}
 
 
 li {
