@@ -1,10 +1,11 @@
+/* BODY */
 /* Normalizing CSS but normalizing.css is better */
 body {
   margin: auto 0;	
 }
 
 
-
+/* ZONE START */
 .zone {
     /*padding:30px 50px;*/
     /*margin:40px 60px;*/
@@ -23,9 +24,11 @@ body {
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
+/* ZONE END */
 
 
 
+/* MAIN-NAV START */
 .main-nav {
 	display: flex;
 	list-style: none;
@@ -34,14 +37,12 @@ body {
 }
 
 
-
 @media only screen and (max-width: 700px) {
 	.main-nav {
 		font-size: 0.5em;
 		padding: 0;
 	}
 }
-
 
 
 .push {
@@ -59,6 +60,18 @@ a {
 	color: #f5f5f6;
 	text-decoration: none;
 }
+/* MAIN-NAV END */
+
+
+
+/* COVER */
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+}
+/* COVER END */
 
 
 
