@@ -73,14 +73,15 @@ a {
 
 /* COVER */
 .container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 50vh;
+    /*show heigh: auto*/
+    height: 70vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cover {
-	width: 30rem;
+    width: 30rem;
 }
 /* COVER END */
 
@@ -95,6 +96,7 @@ a {
 
 .box > img {
 	width: 100%;
+    height: auto;	
 }
 
 .box {
