@@ -1,5 +1,22 @@
+/* Body */
+body {
+	font-size: 2em;
+}
+/* Body End */
+
+
+
+/* NAVBAR */
 .navbar {
 	display: flex;
 	list-style: none;
     justify-content: flex-end;	
+} 
+/*NAVBAR END */
+
+
+
+li {
+	margin: 5px;
+	color: yellow;
 }
