@@ -37,7 +37,7 @@ body {
 	margin: 0;
 }
 
-
+/* This was to shrink font for screen */
 @media only screen and (max-width: 700px) {
 	.main-nav {
 		font-size: 0.5em;
