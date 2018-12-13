@@ -6,9 +6,7 @@ body {
 }
 /* Body End */
 
-.sticky {
-	background-color: black;
-}
+
 
 /* NAVBAR */
 .navbar {
@@ -17,7 +15,16 @@ body {
     justify-content: flex-end;
     margin: 0;	
 } 
+
+.sticky {
+	background-color: black;
+}
+
+.push {
+	margin-right: auto;
+}
 /*NAVBAR END */
+
 
 
 /* LI */
@@ -27,6 +34,7 @@ li {
 	color: yellow;
 } 
 /* LI END */
+
 
 
 /* HERO */
