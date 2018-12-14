@@ -8,6 +8,8 @@ body {
 
 
 
+
+
 /* NAVBAR */
 .navbar {
 	display: flex;
@@ -27,6 +29,8 @@ body {
 
 
 
+
+
 /* LI */
 li {
 	margin: 5px;
@@ -37,8 +41,39 @@ li {
 
 
 
+
+
 /* HERO */
 .hero {
 	background-color: #1d5dfb;
 }
 /* END OF HERO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.myfooter {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+}
+
+.web-contact {
+	background-color: purple;
+}
+
+.facebook {
+	background-color: green;
+}
+/* END OF FOOTER */
