@@ -14,9 +14,18 @@ body {
 .navbar {
 	display: flex;
 	list-style: none;
-    justify-content: flex-end;
+    /*justify-content: flex-end*/
+	font-size: 0.7em;
     margin: 0;	
 } 
+
+/* This was to shrink font for screen */
+@media only screen and (max-width: 633px) {
+	.navbar {
+		font-size: 0.5em;
+		padding: 0;
+	}
+}
 
 .sticky {
 	background-color: black;
