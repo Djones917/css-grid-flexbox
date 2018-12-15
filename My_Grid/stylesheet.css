@@ -45,7 +45,10 @@ li {
 
 /* HERO */
 .hero {
+	display: flex;
 	background-color: #1d5dfb;
+	align-items: center;
+    justify-content: center;
 }
 /* END OF HERO */
 
