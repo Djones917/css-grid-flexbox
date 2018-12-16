@@ -1,3 +1,9 @@
 .parent-flex {
-	display: flex;
+  display: flex;
+}
+
+.parent-flex-direction {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
 }
