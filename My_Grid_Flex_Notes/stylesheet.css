@@ -1,9 +1,18 @@
+/* start with display flex to start working with flex box*/
 .parent-flex {
   display: flex;
 }
 
-.parent-flex-direction {
+/* flex direction row */
+.flex-direction-row {
   display: flex;
   flex-direction: row;
+  height: 100%;
+}
+
+/* flex direction row reverse */
+.flex-direction-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
   height: 100%;
 }
