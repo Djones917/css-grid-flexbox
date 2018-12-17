@@ -23,3 +23,10 @@
   flex-direction: column;
   height: 100%;
 }
+
+/* flex-direction column reverse */
+.flex-direction-column {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100%;
+}
