@@ -8,14 +8,24 @@
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
   </head>
   <body>
-    <div class="parent-flex">
+    <div class="display-flex">
 		<div class="child">1</div>
     	<div class="child">2</div>
       	<div class="child">3</div>
         <div class="child">4</div>
         <div class="child">5</div>
 		<div class="child">6</div>
-	</div> <!-- End of parent container -->
+	</div> <!-- End of display flex container -->
+	
+	<div class="display-flex-inline">
+		<div class="child"><p>Some text here!</p></div>
+		<div class="child">1</div>
+    	<div class="child">2</div>
+      	<div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+		<div class="child">6</div>
+	</div> <!-- End of display flex inline container -->
 	
 	<div class="flex-direction-row">
 		<div class="child">1</div>
@@ -63,12 +73,12 @@
 	</div> <!-- End of flex-wrap nowrap container -->
 	
 	<div class="flex-wrap-wrap">
-		<div class="child">1</div>
-    	<div class="child">2</div>
-      	<div class="child">3</div>
-        <div class="child">4</div>
-        <div class="child">5</div>
-		<div class="child">6</div>
+		<div class="child-wrap">1</div>
+    	<div class="child-wrap">2</div>
+      	<div class="child-wrap">3</div>
+        <div class="child-wrap">4</div>
+        <div class="child-wrap">5</div>
+		<div class="child-wrap">6</div>
 	</div> <!-- End of flex-wrap wrap container -->
 	
 	<div class="flex-wrap-wrap-reverse">
@@ -79,5 +89,14 @@
         <div class="child">5</div>
 		<div class="child">6</div>
 	</div> <!-- End of flex-wrap wrap-reverse container --> 
+	
+	<div class="flex-flow-row-nowrap">
+		<div class="child">1</div>
+    	<div class="child">2</div>
+      	<div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+		<div class="child">6</div>
+	</div> <!-- End of flex-flow-row-nowrap container --> 
   </body>
 </html>

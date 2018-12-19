@@ -1,8 +1,20 @@
+/* START OF DISPLAY PROPERTIES */
 /* start with display flex to start working with flex box*/
-.parent-flex {
+.display-flex {
   display: flex;
 }
 
+/* display inline-flex puts item inline! */
+.display-flex-inline {
+	display: inline-flex;
+}
+/* END OF DISPLAY PROPERTIES */
+
+
+
+
+
+/* START OF FLEX DIRECTION PROPERTIES */
 /* flex direction row */
 .flex-direction-row {
   display: flex;
@@ -30,7 +42,13 @@
   flex-direction: column-reverse;
   height: 100%;
 }
+/* END OF FLEX DIRECTION PROPERTIES */
 
+
+
+
+
+/* START OF WRAP PROPERTIES */
 /* flex-wrap nowrap */
 .flex-wrap-nowrap {
   display: flex;
@@ -55,7 +73,16 @@
   height: 100%;
 }
 
-/* This is for the child to the parent container!!! */
-.child {
+/* flex-flow-row-nowrap */
+.flex-flow-row-nowrap {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+}
+
+
+/* This applies to all wrap properties only!!! */
+.child-wrap {
   width: 40%;
 }
+/* END OF WRAP PROPERTIES */
