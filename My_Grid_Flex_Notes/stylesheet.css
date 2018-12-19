@@ -54,3 +54,8 @@
   flex-wrap: wrap-reverse;
   height: 100%;
 }
+
+/* This is for the child to the parent container!!! */
+.child {
+  width: 40%;
+}
