@@ -77,14 +77,6 @@
   height: 100%;
 }
 
-/* flex-flow-row-nowrap */
-.flex-flow-row-nowrap {
-  display: flex;
-  flex-flow: row nowrap;
-  height: 100%;
-}
-
-
 /* This applies to all wrap properties only!!! */
 .child-wrap {
   width: 40%;
@@ -97,15 +89,37 @@
 
 
 /* START OF FLEX FLOW PROPERTIES */
+/* flex flow row nowrap */
 .flex-flow-row-nowrap {
   display: flex;
   flex-flow: row nowrap;
   height: 100%;
 }
 
+ /* flex flow column-reverse */
 .flex-flow-column-reverse {
   display: flex;
   flex-flow: column-reverse;
   height: 100%;
+}
+
+/* flex flow column wrap */
+.flex-flow-column-wrap {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;	
+}
+
+/* row-reverse wrap-reverse */
+.flex-flow-row-reverse-wrap-reverse {
+  display: flex;
+  flex-flow: row-reverse wrap-reverse;
+  height: 100%;		
+}
+
+ /* child-flow only for flow */
+.child-flow {	
+  width: 40%;
+  height: 40%; 
 }
 /* END OF FLEX FLOW PROPERTIES */
