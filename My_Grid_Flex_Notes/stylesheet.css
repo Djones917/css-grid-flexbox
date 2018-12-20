@@ -97,5 +97,15 @@
 
 
 /* START OF FLEX FLOW PROPERTIES */
+.flex-flow-row-nowrap {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+}
 
+.flex-flow-column-reverse {
+  display: flex;
+  flex-flow: column-reverse;
+  height: 100%;
+}
 /* END OF FLEX FLOW PROPERTIES */
