@@ -1,4 +1,10 @@
 /* START OF DISPLAY PROPERTIES */
+/* DISPLAY TITLE */
+.title {
+	display: flex;
+	justify-content: flex-start;
+}
+/* END OF DISPLAY TITLE */
 /* start with display flex to start working with flex box*/
 .display-flex {
   display: flex;
