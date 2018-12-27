@@ -159,4 +159,16 @@
   justify-content: flex-start;
   height: 100%;
 }
+
+.justify-content-flex-end {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
 /* END OF JUSTIFY CONTENT */
