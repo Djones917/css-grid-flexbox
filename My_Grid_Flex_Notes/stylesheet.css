@@ -154,7 +154,7 @@
 
 
 /* JUSTIFY CONTENT */
-.justify-content {
+.justify-content-flex-start {
   display: flex;
   justify-content: flex-start;
   height: 100%;
