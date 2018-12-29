@@ -152,7 +152,7 @@
 
 
 
-
+/* Alignment */
 /* JUSTIFY CONTENT */
 .justify-content-flex-start {
   display: flex;
@@ -190,3 +190,11 @@
   height: 100%;
 }
 /* END OF JUSTIFY CONTENT */
+
+/* align-items */
+.align-items-flex-start {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+}
+/*END OF Alignment */
