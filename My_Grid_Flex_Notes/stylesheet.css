@@ -197,4 +197,10 @@
   align-items: flex-start;
   height: 100%;
 }
+
+.align-items-flex-end {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
 /*END OF Alignment */
