@@ -209,4 +209,10 @@
   align-items: center;
   height: 100%;
 }
+
+.align-items-baseline {
+  display: flex;
+  align-items: baseline;
+  height: 100%;
+}
 /*END OF Alignment */
