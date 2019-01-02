@@ -214,5 +214,11 @@
   display: flex;
   align-items: baseline;
   height: 100%;
+} 
+
+.align-items-stretch {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
 }
 /*END OF Alignment */
