@@ -215,10 +215,17 @@
   align-items: baseline;
   height: 100%;
 } 
+/* end of align-items */
 
-.align-items-stretch {
+/* align-self */
+.align-self-flex-start {
   display: flex;
-  align-items: stretch;
   height: 100%;
+} 
+
+.childas {
+   align-self: flex-start;	
 }
+/* end of align-self */
+ 
 /*END OF Alignment */
