@@ -223,6 +223,11 @@
   height: 100%;
 } 
 
+.align-self-flex-end {
+  display: flex;
+  height: 100%;
+} 
+
 .childas {
    align-self: flex-start;	
 }
