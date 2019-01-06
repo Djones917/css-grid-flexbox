@@ -218,12 +218,7 @@
 /* end of align-items */
 
 /* align-self */
-.align-self-flex-start {
-  display: flex;
-  height: 100%;
-} 
-
-.align-self-flex-end {
+.align-self {
   display: flex;
   height: 100%;
 } 
