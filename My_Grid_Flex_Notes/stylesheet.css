@@ -225,6 +225,10 @@
 
 .childas-start {
    align-self: flex-start;	
+} 
+
+.childas-end {
+   align-self: flex-end;	
 }
 /* end of align-self */
  
