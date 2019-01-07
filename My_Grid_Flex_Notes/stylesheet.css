@@ -229,6 +229,14 @@
 
 .childas-end {
    align-self: flex-end;	
+} 
+
+.childas-center {
+   align-self: center;	
+} 
+
+.childas-baseline {
+   align-self: baseline;	
 }
 /* end of align-self */
  
