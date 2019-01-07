@@ -237,6 +237,10 @@
 
 .childas-baseline {
    align-self: baseline;	
+} 
+
+.childas-stretch {
+   align-self: stretch;	
 }
 /* end of align-self */
  
