@@ -243,5 +243,17 @@
    align-self: stretch;	
 }
 /* end of align-self */
- 
+
+/* ALIGN CONTENT */
+.align-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  height: 100%;
+} 
+
+.childas-alignconent {
+	width: 30%;
+}
+/* END OF ALIGN CONTENT */
 /*END OF Alignment */
